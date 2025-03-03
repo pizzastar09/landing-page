@@ -46,3 +46,10 @@ button {
     margin-top: 50px;
     font-size: 25px;
 }
+#Second {
+    display: flex;
+    flex-direction: row;
+}
+.S2 {
+    width: 200px;
+}

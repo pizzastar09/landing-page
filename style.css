@@ -3,22 +3,33 @@
 }
 .container{
     display: flex;
+    background-color: #1f2937;
 }
 img {
     border-radius: 5px;
-    border: 2px solid black;
+    border: 5px solid #3882f6;
+}
+.header1 {
+    text-align: left;
+    color: #e5e7eb;
+}
+#First {
+    background-color: #1f2937;
+    color: hsl(220, 13%, 91%);
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .S1 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
     padding: 2px;
     margin: 2px;
-    flex-basis: 30%;
-    width: 50%;
-    margin-left: 20px;
-    text-align: left;
+    text-align: left; 
+    max-width: 200px;
+    justify-content: flex-end;
 }
 p {
     font-size: 12px;
@@ -29,8 +40,9 @@ h1, p, button {
 }
 #kuriboh {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     flex-basis: 40%;
+    padding-left: 200px;
 }
 .header {
     margin-bottom: 50px;
@@ -38,16 +50,6 @@ h1, p, button {
 button {
     max-width: 100px;
     margin-left: 10px;
-}
-#First {
-    background-color: #1f2937;
-    color: hsl(220, 13%, 91%);
-    padding: 5px;
-}
-#Kuriboh {
-    position: absolute;
-    top: 80px;
-    left: 600px;
 }
 .header-2 {
     text-align: center;
@@ -62,7 +64,6 @@ button {
     padding-bottom: 50px;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    
 }
 .S2 {
     width: 200px;
@@ -83,23 +84,23 @@ button {
 /* fourth section */
 .learn-more {
     display: flex;
-    flex-direction: column;
     margin: 100px;
-    justify-content: center;
     padding: 20px;
     background-color: #3882f6;
     color: #e5e7eb;
     border-radius: 15px;
+    align-items: center;
 }
 .signs-text {
     text-align: left;
 }
-.signs-button button {
+.button2 button {
     background-color: #3882f6;
     color: #e5e7eb;
     border-color: #e5e7eb;
     border-radius: 5px;
-    
+    display: flex;
+    margin-left: 200px;
 }
 /* footer */
 footer {
